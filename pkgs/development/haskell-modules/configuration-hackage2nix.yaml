@@ -4029,7 +4029,6 @@ broken-packages:
   - dirtree
   - discogs-haskell
   - discord-gateway
-  - discord-haskell
   - discord-hs
   - discord-rest
   - discord-types
