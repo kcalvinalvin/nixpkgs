@@ -30,6 +30,7 @@ in {
 
   config = mkIf cfg.enable {
 
+    services.xserver.libinput.enable = false; #plasma5.nix enables libinput by default which is incompatible with cmt.nix
     services.xserver.modules = [ pkgs.xf86_input_cmt ];
 
     environment.etc = {
